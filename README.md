@@ -44,9 +44,15 @@ The preprocessing involves several steps:
 4. **Bias field correction using ANTs**: Correcting intensity non-uniformity in the scans.
 
 **Before Preprocessing**
+
+
+
 ![MRI before preprocessing](assets/before.gif)
 
 **After Preprocessing**
+
+
+
 ![MRI after preprocessing](assets/after.gif)
 
 For detailed preprocessing code, refer to the [preprocessing script](PreProcessing.py).
