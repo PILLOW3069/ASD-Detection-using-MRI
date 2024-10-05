@@ -29,6 +29,8 @@ This repository contains the code and instructions for building a web applicatio
 
 We are using the ABIDE dataset for collecting MRI scans. Ensure you have the dataset properly organized and accessible.
 
+![Abide](assets/abide.jpeg)
+
 The Autism Brain Imaging Data Exchange (ABIDE) dataset is a comprehensive collection of neuroimaging data from individuals with Autism Spectrum Disorder (ASD) and typical controls. It aims to advance the scientific understanding of ASD by providing a large-scale, publicly available dataset for research and analysis.
 
 The data were collected from 17 different sites worldwide, resulting in a diverse sample that includes a wide range of ages, cognitive abilities, and ASD severities. Each site followed a standardized protocol for data acquisition to ensure consistency and reliability across the dataset.
@@ -40,6 +42,12 @@ The preprocessing involves several steps:
 2. **Normalizing the scan to the MNI template**: Ensuring the scans are consistent in orientation and size.
 3. **Skull stripping using FSL's BET**: Removing non-brain tissues from the scans.
 4. **Bias field correction using ANTs**: Correcting intensity non-uniformity in the scans.
+
+**Before Preprocessing**
+![MRI before preprocessing](assets/before.gif)
+
+**After Preprocessing**
+![MRI after preprocessing](assets/after.gif)
 
 For detailed preprocessing code, refer to the [preprocessing script](PreProcessing.py).
 
