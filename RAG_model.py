@@ -23,7 +23,7 @@ def retrieve_info(query, df, embeddings, model, top_k=3):
 
 # Generate response using Gemini
 def generate_response(probability, query, relevant_info):
-    genai.configure(api_key='AIzaSyDFyr0D3F-9VhuR5cJkX0UZqvAUYzotIyM')  # Replace with your API key
+    genai.configure(api_key='#############################')  # Replace with your API key
     model = genai.GenerativeModel('gemini-pro')
 
     prompt = f"""
